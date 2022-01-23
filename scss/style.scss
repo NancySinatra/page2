@@ -1,5 +1,4 @@
-@use 'variables' as 
-*;
+@use 'variables' as *;
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@0;1&display=swap');
 body {
    margin:0;
@@ -42,7 +41,7 @@ header a {
 }
 
 header a:hover {
-   background-color: #650100;
+   background-color: $color-red;
 
 }
 
